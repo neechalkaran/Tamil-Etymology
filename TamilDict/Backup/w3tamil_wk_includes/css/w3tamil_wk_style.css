@@ -1,0 +1,89 @@
+   /**
+	*	Project Name	: w3TamilWK - w3Tamil Web Keyboard 
+	*	@ Version		: 1.2 (January, 2008) Beta
+	*	@ Version		: 1.1 (December, 2006) Beta
+	*	Author			: T.Siva
+	*	Copyright (C) 2006 - 2008 T.Siva (w3tamil AT gmail DOT com) OR (developer AT w3tamil DOT com)
+	*	Project Home Page: http://wk.w3tamil.com
+	*	Latest Versions will be available at: http://sourceforge.net/projects/w3tamilwk/
+	*/
+   /**
+	*	This file is part of w3TamilWK (w3Tamil Web Keyboard).
+	*
+	*   w3TamilWK is free software; you can redistribute it and/or modify
+	*   it under the terms of the GNU General Public License as published by
+	*   the Free Software Foundation; either version 2 of the License, or
+	*   (at your option) any later version.
+	*
+	*   w3TamilWK is distributed in the hope that it will be useful,
+	*   but WITHOUT ANY WARRANTY; without even the implied warranty of
+	*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	*   GNU General Public License for more details.
+	*
+	*   You should have received a copy of the GNU General Public License
+	*   along with w3TamilWK; if not, write to the Free Software
+	*   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+	*/
+#keyboard_container{
+	margin: 0 auto;
+	width: 500px;
+	text-align:center;
+/*	display: none;*/
+}
+#keyboard{
+	border:2px ridge #F0F0F0;
+	padding: 1px;
+	white-space:nowrap;
+	background-color:#dfecf5; /*************/
+	color:#333333	
+}
+#row_1, #row_2, #row_3,#row_4, #row_5{
+	text-align : center;
+}
+#keyboard img{
+	border:2px outset #E9E9E9;
+	cursor: pointer;
+	margin: -1px;
+}
+#keyboard_title{
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant: small-caps;
+	background-color: #FFFFFF;
+	font-size: 20px;
+	font-weight: bold;		
+}
+#keyboard_editor{
+	padding: 5px;
+	background-color:#c3d9ff;/**************/
+}
+#keyboard_editor form{
+	margin: 0px;
+}
+#keyboard_editor textarea{
+	color: #333333;
+	font-family: latha,"arial unicode ms", Auai_Tamil, sans-serif;
+	font-size: 16px;
+	border:1px inset #CCCCCC;
+}
+#keyboard_status{
+	margin: 0 auto;
+	background-color:#fad163;
+	font-family:arial;
+	font-size:10px;
+	text-align:center;
+	margin-bottom: 2px;
+}
+#keyboard_footer{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color:#c3d9ff;
+	display: block;
+}
+#selectCopy{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #c3d9ff;	/**********/
+	border:1px outset #CCCCCC;
+	
+}
+

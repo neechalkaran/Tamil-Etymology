@@ -1,0 +1,6 @@
+C:\Users\VP\Documents\Visual Studio 2008\Projects\JQueryEx\JQueryEx\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\VP\Documents\Visual Studio 2008\Projects\JQueryEx\JQueryEx\bin\JQueryEx.dll
+C:\Users\VP\Documents\Visual Studio 2008\Projects\JQueryEx\JQueryEx\bin\JQueryEx.pdb
+C:\Users\VP\Documents\Visual Studio 2008\Projects\JQueryEx\JQueryEx\obj\Debug\JQueryEx.dll
+C:\Users\VP\Documents\Visual Studio 2008\Projects\JQueryEx\JQueryEx\obj\Debug\JQueryEx.pdb
+C:\Users\VP\Documents\Visual Studio 2008\Projects\JQueryEx\JQueryEx\obj\Debug\JQueryEx.csproj.ResolveComReference.cache

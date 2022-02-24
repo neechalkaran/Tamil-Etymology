@@ -1,0 +1,32 @@
+.green {
+	color: green;
+}
+.anc {
+	color: rgb(99, 102, 106); text-decoration: none;
+}
+.anc:hover {
+	color: red; text-decoration: none;
+}
+body {
+	margin: 0px;
+}
+#tfheader {
+	margin: 0px auto; background-color: rgb(195, 223, 239);
+}
+#tfnewsearch {
+	padding: 5px; float: left;
+}
+.tftextinput {
+	border-width: 1px 0px 1px 1px; border-style: solid none solid solid; border-color: rgb(0, 118, 163); margin: 0px; padding: 5px; width: 390px; font-family: Arial, Helvetica, sans-serif; font-size: 14px;
+}
+.tfbutton {
+	background: rgb(0, 149, 205); border-width: 1px 0px 1px 1px; border-style: solid none solid solid; border-color: rgb(0, 118, 163) ; margin: 0px; padding: 30px 20px; text-align: center; color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-decoration: none; cursor: pointer; }
+.tfbutton:hover {
+	background: rgb(0, 126, 173); text-decoration: none;
+}
+.tfclear {
+	clear: both;
+}
+.btstyle {
+	padding-top: 10px; padding-bottom: 7px; font-size: 10.5px; margin-left: -5px;
+}

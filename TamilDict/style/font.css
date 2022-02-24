@@ -1,0 +1,33 @@
+body {
+	font-family: myFirstFont;
+}
+.green {
+	color: green;
+}
+.blue {
+	color: rgb(0, 112, 213);
+}
+.red {
+	color: red;
+}
+.engnor {
+	font-size: 20px;
+}
+.myButton {
+	background: linear-gradient(rgb(51, 189, 239) 5%, rgb(1, 154, 210) 100%) rgb(51, 189, 239); padding: 6px 24px; border: 1px solid rgb(5, 127, 208); color: rgb(255, 255, 255); font-family: Arial; font-size: 15px; font-weight: bold; text-decoration: none; display: inline-block; cursor: pointer; -moz-box-shadow: 0px 1px 0px 0px #f0f7fa; -webkit-box-shadow: 0px 1px 0px 0px #f0f7fa; -moz-border-radius: 6px; -webkit-border-radius: 6px;
+}
+.myButton:hover {
+	background: linear-gradient(rgb(1, 154, 210) 5%, rgb(51, 189, 239) 100%) rgb(1, 154, 210);
+}
+.myButton:active {
+	top: 1px; position: relative;
+}
+.dis {
+	background: linear-gradient(rgb(219, 219, 219) 5%, rgb(171, 171, 171) 100%) rgb(219, 219, 219); padding: 6px 24px; border: 1px solid rgb(179, 179, 179);  color: rgb(97, 96, 97); font-family: Arial; font-size: 15px; font-weight: bold; text-decoration: none; display: inline-block; cursor: no-drop;  -moz-box-shadow: 0px 1px 0px 0px #f0f7fa; -webkit-box-shadow: 0px 1px 0px 0px #f0f7fa; -moz-border-radius: 6px; -webkit-border-radius: 6px;
+}
+.dis:hover {
+	background: linear-gradient(rgb(171, 171, 171) 5%, rgb(219, 219, 219) 100%) rgb(171, 171, 171); cursor: no-drop;
+}
+.dis:active {
+	top: 1px; position: relative; cursor: no-drop;
+}

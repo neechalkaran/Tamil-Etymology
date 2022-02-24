@@ -1,0 +1,106 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Configuration;
+using System.Web.Script.Serialization;
+using System.Data;
+using System.Data.OleDb;
+using MySql.Data.MySqlClient;
+namespace JQueryEx
+{
+    /// <summary>
+    /// Summary description for $codebehindclassname$
+    /// </summary>
+
+    public class NamesHandler : IHttpHandler
+    {
+        MySqlConnection mySQLConn = null;
+
+        public void ProcessRequest(HttpContext context)
+        {
+            string term = context.Request["term"] ?? "";
+            List<string> names = new List<string>();
+
+            string strSelect = "SELECT distinct Name FROM tblTamilWords where Name like '" + term + "%'";
+            try
+            {
+                string strConn = System.Configuration.ConfigurationSettings.AppSettings["mysqlconstr"].ToString();
+                mySQLConn = new MySqlConnection(strConn);
+                if (mySQLConn.State != ConnectionState.Open)
+                    mySQLConn.Open();
+
+                MySqlCommand mySQLCommand = new MySqlCommand(strSelect, mySQLConn);
+                MySqlDataReader rdr = mySQLCommand.ExecuteReader();
+                while (rdr.Read())
+                {
+                    names.Add(rdr["Name"].ToString());
+                }
+
+                JavaScriptSerializer js = new JavaScriptSerializer();
+                context.Response.Write(js.Serialize(names));
+
+            }
+            catch (Exception ex)
+            {
+
+                context.Response.Write(ex.InnerException.ToString());
+                throw ex;
+                    /*    Console.WriteLine("Error: Failed to retrieve the required data from the DataBase.\n{0}", ex.Message);
+                return;
+
+             */
+            }
+            finally
+            {
+                mySQLConn.Close();
+            }
+        }
+
+        public bool IsReusable
+        {
+            get
+            {
+                return false;
+            }
+        }
+
+        protected void obsolete()
+        {
+            //string term = context.Request["term"] ?? "";
+            //List<string> names = new List<string>();
+
+            //string strAccessSelect = "SELECT distinct Name FROM tblTamilWords where name like '" + term + "%'";
+            //try
+            //{
+            //    string strAccessConn = System.Configuration.ConfigurationSettings.AppSettings["mysqlconstr"].ToString();
+            //    myAccessConn = new OleDbConnection(strAccessConn);
+            //    if (myAccessConn.State != ConnectionState.Open)
+            //        myAccessConn.Open();
+
+            //    // Create the dataset and add the Categories table to it:
+            //    DataSet myDataSet = new DataSet();
+            //    OleDbCommand myAccessCommand = new OleDbCommand(strAccessSelect, myAccessConn);
+            //    OleDbDataReader rdr = myAccessCommand.ExecuteReader();
+
+            //    while (rdr.Read())
+            //    {
+            //        names.Add(rdr["Name"].ToString());
+            //    }
+
+            //    JavaScriptSerializer js = new JavaScriptSerializer();
+            //    //context.Response.Write(js.Serialize(names));
+
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine("Error: Failed to retrieve the required data from the DataBase.\n{0}", ex.Message);
+            //    return;
+            //}
+            //finally
+            //{
+            //    //myAccessConn.Close();
+            //}
+        }
+    }
+}

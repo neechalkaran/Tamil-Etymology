@@ -1,0 +1,33 @@
+C:\Users\VP\Documents\Visual Studio 2008\Projects\JQueryEx\JQueryEx\bin\JQueryEx.dll
+C:\Users\VP\Documents\Visual Studio 2008\Projects\JQueryEx\JQueryEx\bin\JQueryEx.pdb
+C:\Users\VP\Documents\Visual Studio 2008\Projects\JQueryEx\JQueryEx\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\VP\Documents\Visual Studio 2008\Projects\JQueryEx\JQueryEx\obj\Debug\TamilDictionary.csproj.ResolveComReference.cache
+C:\Users\VP\Documents\Visual Studio 2008\Projects\JQueryEx\JQueryEx\obj\Debug\JQueryEx.dll
+C:\Users\VP\Documents\Visual Studio 2008\Projects\JQueryEx\JQueryEx\obj\Debug\JQueryEx.pdb
+C:\Users\VP\Documents\Visual Studio 2008\Projects\TamilDict\TamilDict\bin\JQueryEx.dll
+C:\Users\VP\Documents\Visual Studio 2008\Projects\TamilDict\TamilDict\bin\JQueryEx.pdb
+C:\Users\VP\Documents\Visual Studio 2008\Projects\TamilDict\TamilDict\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\VP\Documents\Visual Studio 2008\Projects\TamilDict\TamilDict\obj\Debug\TamilDictionary.csproj.ResolveComReference.cache
+C:\Users\VP\Documents\Visual Studio 2008\Projects\TamilDict\TamilDict\obj\Debug\JQueryEx.dll
+C:\Users\VP\Documents\Visual Studio 2008\Projects\TamilDict\TamilDict\obj\Debug\JQueryEx.pdb
+V:\VP\Project\TamilDict\bin\JQueryEx.dll
+V:\VP\Project\TamilDict\bin\JQueryEx.pdb
+V:\VP\Project\TamilDict\obj\Debug\ResolveAssemblyReference.cache
+V:\VP\Project\TamilDict\obj\Debug\TamilDictionary.csproj.ResolveComReference.cache
+V:\VP\Project\TamilDict\obj\Debug\JQueryEx.dll
+V:\VP\Project\TamilDict\obj\Debug\JQueryEx.pdb
+C:\Users\Acer\Downloads\TamilDict_Latest_bk\TamilDict\bin\JQueryEx.dll
+C:\Users\Acer\Downloads\TamilDict_Latest_bk\TamilDict\bin\JQueryEx.pdb
+C:\Users\Acer\Downloads\TamilDict_Latest_bk\TamilDict\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Acer\Downloads\TamilDict_Latest_bk\TamilDict\obj\Debug\TamilDictionary.csproj.ResolveComReference.cache
+C:\Users\Acer\Downloads\TamilDict_Latest_bk\TamilDict\obj\Debug\JQueryEx.dll
+C:\Users\Acer\Downloads\TamilDict_Latest_bk\TamilDict\obj\Debug\JQueryEx.pdb
+D:\Tamil-Etymology\TamilDict\bin\JQueryEx.dll.config
+D:\Tamil-Etymology\TamilDict\bin\JQueryEx.dll
+D:\Tamil-Etymology\TamilDict\bin\JQueryEx.pdb
+D:\Tamil-Etymology\TamilDict\obj\Debug\TamilDictionary.csprojAssemblyReference.cache
+D:\Tamil-Etymology\TamilDict\obj\Debug\TamilDictionary.csproj.ResolveComReference.cache
+D:\Tamil-Etymology\TamilDict\obj\Debug\TamilDictionary.csproj.CoreCompileInputs.cache
+D:\Tamil-Etymology\TamilDict\obj\Debug\TamilDictionary.csproj.CopyComplete
+D:\Tamil-Etymology\TamilDict\obj\Debug\JQueryEx.dll
+D:\Tamil-Etymology\TamilDict\obj\Debug\JQueryEx.pdb
